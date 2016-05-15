@@ -3,6 +3,8 @@
 This timer class is used to count a certain time duration. It works exactly likes a stop watch. It has four functions
 `start()` to start the timer, `stop()` pause counting, `reset()` to reset the memory, and another template function `read()` to return its reading.
 
+The definition of class `Timer` is contained in `Timer.h`. 
+
 ## Example
 Let's consider the use of stop watch in real life.
 ><strong>If John starts his timer at noon, after 2 minutes and 10 seconds, at 12:02:10 the timer
