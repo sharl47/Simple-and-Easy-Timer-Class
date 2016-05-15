@@ -4,14 +4,13 @@ This timer class is used to count a certain time duration. It works exactly like
 `start()` to start the timer, `stop()` pause counting, `reset()` to reset the memory, and another template function `read()` to return its reading.
 
 ## Example
+Let's consider the use of stop watch in real life.
 ><strong>If John starts his timer at noon, after 2 minutes and 10 seconds, at 12:02:10 the timer
 reads 2:10. If John stops his timer at 12:03:12, then it reads 3:12. Then he pushs start 
 buttom again at 12:10:05, at 12:12:00 the timer reads 5:07. If he stops it at 12:13:00. 
 The timer reads 6:07.</strong>
 
-The example above is how we use a timer in real life. 
-
-In the C++ world however, the default `<chrono>` contains the stuff we need to count time.
+In the C++ world, however, the default `<chrono>` contains the stuff we need to count time.
 But they are too complex for programmers. This example below is an example of using default C++
 standard library to count the running time of `std::sort()` function.(Assuming we already have a vector
 called `vec` to be sort)
