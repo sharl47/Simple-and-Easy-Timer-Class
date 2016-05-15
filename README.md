@@ -1,7 +1,7 @@
 # Simple and Easy Timer Class
 
 This timer class is used to count a certain time duration. It works exactly likes a stop watch. It has four functions
-start() to start the timer, stop() pause counting, reset() to reset the memory, and another template function read() to return its reading.
+`start()` to start the timer, `stop()` pause counting, `reset()` to reset the memory, and another template function `read()` to return its reading.
 
 ## Example
 ><strong>If John starts his timer at noon, after 2 minutes and 10 seconds, at 12:02:10 the timer
@@ -11,10 +11,10 @@ The timer reads 6:07.</strong>
 
 The example above is how we use a timer in real life. 
 
-In the C++ world however, the default \<chrono> contains the stuff we need to count time.
+In the C++ world however, the default `<chrono>` contains the stuff we need to count time.
 But they are too complex for programmers. This example below is an example of using default C++
-standard library to count the running time of std::sort() function.(Assuming we already have a vector
-called [vec] to be sort)
+standard library to count the running time of `std::sort()` function.(Assuming we already have a vector
+called `vec` to be sort)
 
     
     std::chrono::steady_clock::time_point begin;
@@ -43,7 +43,7 @@ The example below is the equivalent code using Simple and Easy Timer Class.
               << timer.read<Timer::milliseconds>(); // read the timer
               << " milliseconds." << std::endl;
 
-There is a complete example in Main.cpp which count the time that std::sort() cost sorting 10000 ints.
+There is a complete example in `Example.cpp` which count the time that `std::sort()` cost sorting 10000 ints.
 
 ## Public Members
 * <strong> Default Constructor </strong>
@@ -60,7 +60,7 @@ There is a complete example in Main.cpp which count the time that std::sort() co
 * <strong> template \<typename Unit> int64_t read\<Unit>() </strong>
 <br/>  This function template returns Timer's reading as an 64 bits int. The type argument of this 
 function is the unit of time you want. The valid arguments are:
-<br/>(be careful: read() returns an int)
+<br/>(be careful: `read()` returns an int)
         
         Timer::nanoseconds
         Timer::microseconds
