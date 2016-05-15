@@ -61,13 +61,14 @@ There is a complete example in Main.cpp which count the time that std::sort() co
 <br/>  This function template returns Timer's reading as an 64 bits int. The type argument of this 
 function is the unit of time you want. The valid arguments are:
 <br/>(be careful: read() returns an int)
-  
+        
+        Timer::nanoseconds
+        Timer::microseconds
+        Timer::milliseconds
+        Timer::seconds
+        Timer::minutes
+        Timer::hours
+        
 
-
-    ** Timer::nanoseconds
-    ** Timer::microseconds
-    ** Timer::milliseconds
-    ** Timer::seconds
-    ** Timer::minutes
-    ** Timer::hours
+        
 
