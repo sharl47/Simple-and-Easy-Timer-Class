@@ -43,7 +43,7 @@ The example below is the equivalent code using Simple and Easy Timer Class.
               << timer.read<Timer::milliseconds>(); // read the timer
               << " milliseconds." << std::endl;
 
-There is a complete example in `Example.cpp` which count the time that `std::sort()` cost sorting 10000 ints.
+There is a complete example in `Example.cpp` which counts the time that `std::sort()` costs sorting 10000 ints.
 
 ## Public Members
 * <strong> Default Constructor </strong>
