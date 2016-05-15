@@ -63,6 +63,7 @@ function is the unit of time you want. The valid arguments are:
 <br/>(be careful: read() returns an int)
   
 
+
     Timer::nanoseconds
     Timer::microseconds
     Timer::milliseconds
