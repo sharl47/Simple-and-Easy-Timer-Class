@@ -64,10 +64,10 @@ function is the unit of time you want. The valid arguments are:
   
 
 
-    Timer::nanoseconds
-    Timer::microseconds
-    Timer::milliseconds
-    Timer::seconds
-    Timer::minutes
-    Timer::hours
+    ** Timer::nanoseconds
+    ** Timer::microseconds
+    ** Timer::milliseconds
+    ** Timer::seconds
+    ** Timer::minutes
+    ** Timer::hours
 
